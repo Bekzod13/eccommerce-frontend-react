@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import {FaAngleRight, FaAngleLeft} from 'react-icons/fa';
 
 const MainCarusel = ({caruselHeight}) => {
-    console.log(caruselHeight);
     const settings = {
         customPaging: function(i) {
             return (
